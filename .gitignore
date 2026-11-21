@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# data
+data/
+
+# Logs and local configuration
+*.log
+.env
+.env.*
+!.env.example
+
+# macOS
+.DS_Store
+.vscode/
+
+# Private signing material
+*.p12
+*.p8
+*.key
+*.pem
+*.mobileprovision
